@@ -1,0 +1,30 @@
+.parent{
+    height: 2000px;
+    width: 2000px;
+    margin: 120px;
+    background-color: blueviolet;
+    font-size: 5rem;
+   
+}
+.parent>*{
+    width: 150px;
+    height: 150px;
+    font-size: .9rem;
+     position: relative; 
+
+}
+
+.child1{
+    background-color: aqua;
+    position: relative;
+     left:100px; 
+     bottom: 50px;
+
+    
+}
+.child2{
+    background-color: darkgreen;
+}
+.child3{
+    background-color: goldenrod;
+}
